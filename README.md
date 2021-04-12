@@ -17,19 +17,19 @@ Doxygen 1.8.20
 # How to use
 
 1.  Download Doxywizard
-2.  Find Expert > HTML > HTML_EXTRA_STYLESHEET
+2.  Go to Expert > HTML > HTML_EXTRA_STYLESHEET
 
     Add **src/doxygen-style.css**
 
-3. Find Expert > HTML > HTML_EXTRA_FILES
+3.  Go to Expert > HTML > HTML_EXTRA_FILES
 
-    Add **document.png**, **closed-fodler.png** and **opened-folder.png** from the **src** folder
+    Add **document.png**, **closed-fodler.png**, **opened-folder.png**, **off_sync.png** and **on_sync.png** from the **src** folder
 
-# How to change the color pattern
+# How to change the color pattern and style
 
 1. Open **src/doxygen-style.css**
 
-2. Modifiy color variables in **.root**.
+2. Modifiy variables in **.root**.
 
 # License
 This project is licensed under [MIT](LICENSE) license.

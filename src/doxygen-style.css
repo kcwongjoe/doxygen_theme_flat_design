@@ -8,6 +8,7 @@
     --bgfont: #303030;
     --bgfont2: #f3c60a;
     --bgfont-hover: #f3c60a;
+    --bgfont-hover-text-decoration: none;
     --bgborder: #7d7d7d;
     --bgborder2: #f6f6f6;
 
@@ -246,7 +247,7 @@ a, a:visited, a:active, .contents a:visited, body.SRPage a, body.SRPage a:visite
 
 a:hover, .contents a:hover, body.SRPage a:hover {
     color: var(--bgfont-hover);
-    text-decoration: none;
+    text-decoration: var(--bgfont-hover-text-decoration);
 }
 
 /***********************************/
