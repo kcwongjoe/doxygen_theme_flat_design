@@ -23,7 +23,7 @@ Doxygen 1.8.20
 
 3.  Go to Expert > HTML > HTML_EXTRA_FILES
 
-    Add **document.png**, **closed-fodler.png**, **opened-folder.png**, **off_sync.png** and **on_sync.png** from the **src** folder
+    Add all the images from the **src/img** folder
 
 # How to change the color pattern and style
 
