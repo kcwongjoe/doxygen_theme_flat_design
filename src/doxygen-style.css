@@ -61,6 +61,14 @@
     --mem-content-bg: #ffffff;
     --mem-content-font: #ffffff;
     --mem-content-border: #f6f6f6;
+
+    /* Nav Tree */
+    --nav-tree-bg: #E2E2E2;
+    --nav-tree-bg-hover: #ffffff;
+    --nav-tree-font: #7D7D7D;
+    --nav-tree-font-hover: #303030;
+    --nav-tree-bg-selected: #f3c60a;
+    --nav-tree-font-selected: #303030;
   }
 
 body, table, div, p, dl {
@@ -327,6 +335,13 @@ li.navelem a{
     padding: 0px 20px;
 }
 
+/***********************************/
+/************* Contents ************/
+/***********************************/
+
+a.anchor {
+    padding-top: 20px;
+}
 
 /***********************************/
 /************* fragment ************/
@@ -531,5 +546,66 @@ hr.footer {
     color: var(--bgfont);
 }
 
+/***********************************/
+/*********** nav-tree ***********/
+/***********************************/
 
+#nav-tree-contents {
+    background-color: var(--nav-tree-bg);
+    margin: 0px;
+}
 
+#side-nav, #nav-tree {
+    background-image:none; 
+    background-color: var(--nav-tree-bg);
+}
+
+#nav-tree .item {
+    background-color: var(--nav-tree-bg);
+    font-family: Arial;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    color: var(--nav-tree-font);
+}
+
+#nav-tree .arrow {
+    color: var(--nav-tree-font);
+}
+
+#nav-tree .selected {
+    background-image:none;
+    background-color: var(--nav-tree-bg-selected);
+}
+
+#nav-tree .selected a {
+    color: var(--nav-tree-font-selected);
+}
+
+#nav-tree .item:hover {
+    background-color: var(--nav-tree-bg-hover);
+    color: var(--nav-tree-font-hover);
+}
+
+#nav-tree .item a:hover {
+    color: var(--nav-tree-font-hover);
+}
+
+#side-nav .ui-resizable-e {
+    background-image:none; 
+    background-color: var(--nav-tree-bg);
+}
+
+#nav-sync {
+    background-color: transparent;
+}
+
+#nav-sync > img{
+    content: url(off_sync.png);
+}
+
+#nav-sync.sync > img{
+    content: url(on_sync.png);
+}
