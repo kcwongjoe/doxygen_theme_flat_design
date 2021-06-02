@@ -625,3 +625,13 @@ hr.footer {
 #nav-sync.sync>img {
     content: url(on_sync.png);
 }
+
+/***********************************/
+
+/*********** Plant UML ***********/
+
+/***********************************/
+
+.plantumlgraph > img {
+    width: 80%;
+}
