@@ -394,6 +394,7 @@ span.keywordtype {
 
 span.mlabel {
     background-color: var(--code-text);
+    color: var(--code-bg);
     border-top: none;
     border-left: none;
     border-right: none;
