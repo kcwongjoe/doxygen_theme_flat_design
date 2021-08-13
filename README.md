@@ -1,6 +1,6 @@
 # Doxygen Theme - Flat Design
 
-See [Example 1](http://kcwongjoe.lovestoblog.com/directshow_camera/index.html), [Example 2](http://kcwongjoe.lovestoblog.com/serial_port/index.html)
+See [Example 1](https://kcwongjoe.com/directshow_camera/), [Example 2](https://kcwongjoe.com/serial_port/)
 
 ## Sample image 1
 
